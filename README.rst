@@ -17,10 +17,24 @@ Relasing
 --------
 
 * The release procedure should be documented.
-* All tags should alwyas be signed with a gpg-key.
+* All tags should always be signed with a gpg-key.
 
 Continuous Integration
 ----------------------
 
 * At least a basic Travis CI config should be used
 * For Python projects, test against all supported versions of Python.
+
+Shipping c-blosc Sources
+------------------------
+
+If c-blosc sources are to be included, please store the sources in ``c-blosc``
+sources subdirectory. And use the ``subtree-merge-blosc.sh`` script to include
+new versions.
+
+Liscences
+---------
+
+All licenses should be kept in a directory ``LICENSES``. In case c-blosc sources
+are included in the projects Git repository inherited licenses should be
+symlinked into the ``LICENSES`` directory to avoid duplication.
