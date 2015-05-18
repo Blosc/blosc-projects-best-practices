@@ -6,12 +6,14 @@ Contributing and Git
 
 * ``master`` should always be stable and it should be possible to release from
   it at any time.
-* Only minor things and release preparation should be done on ``master``.
+* Only really trivial things should be done on ``master``.
 * Development and bugfixing should happen in feature branches.
 * All feature branches should be submitted as pull-requests from the user's
   forks. This means: no feature branches in the main repository.
 * All branches must include tests if at all possible and ideally also an entry
   in the changelog.
+* Any pull-request should be based on the current position of ``master`` before
+  merging by using rebase.
 
 Releasing
 ---------
