@@ -13,7 +13,9 @@ Contributing and Git
 * All branches must include tests if at all possible and ideally also an entry
   in the changelog.
 * Any pull-request should be based on the current position of ``master`` before
-  merging by using rebase.
+  merging by using rebase. This is not such a strict requirement because the
+  pull-requests and resulting merges are more important, but it is definitely
+  an advantage.
 
 Releasing
 ---------
@@ -33,6 +35,13 @@ Shipping c-blosc Sources
 If c-blosc sources are to be included, please store the sources in ``c-blosc``
 sources subdirectory. And use the ``subtree-merge-blosc.sh`` script to include
 new versions.
+
+General Policies
+----------------
+
+* The role of the maintainer is to enforce process
+* Pull-requests, issues and mailinglist posts, should be responded to as soon
+  as possible
 
 Licences
 --------
